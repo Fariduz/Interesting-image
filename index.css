@@ -1,0 +1,29 @@
+body {
+    background: rgb(93, 92, 99);
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    height: 220px;
+    width: 220px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 6px solid rgb(99, 99, 92);
+
+}
+
+.wrapper img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    filter: grayscale(100%);
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+
+.wrapper img:hover {
+    transform: scale(1.2);
+    filter: grayscale(0);
+    zoom: 10px;
+}
